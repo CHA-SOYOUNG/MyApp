@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_set_vibration"
+        android:layout_width="321dp"
+        android:layout_height="59dp"
+        android:background="@drawable/little_round_btn"
+        android:gravity="center"
+        android:text="진동 알림               ON  "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="다잡아"
+        android:textColor="#494949"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_set_use"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@drawable/roundbtn"
+        android:text="ON"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:text="실시간 탐지 중입니다."
+        android:textColor="#494949"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_set_use"
+        app:layout_constraintVertical_bias="0.093"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
